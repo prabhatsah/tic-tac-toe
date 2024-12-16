@@ -1,18 +1,10 @@
-import Player from "./components/Player";
 
 function App() {
+  
+
   return (
-    <main>
-      <div id="game-container">
-        <ol id="players">
-          <Player name="Roibert Downy" symbol="X" />
-          <Player name="Chris Evans" symbol="O" />
-        </ol>
-        GAME BOARD
-      </div>
-      LOG
-    </main>
-  );
+    <h1>React Tic-Tac-Toe</h1>
+  )
 }
 
-export default App;
+export default App
